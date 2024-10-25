@@ -1,0 +1,50 @@
+The primary aim of this project is to optimize the ingredient ordering process for Dominos by predicting future sales and generating an efficient purchase order system. By accurately forecasting sales, we can ensure that Dominos maintains optimal inventory levels, reduces waste, and prevents stockouts. This project leverages historical sales data and ingredient information to develop a predictive model that informs better business decisions.
+
+Workaround:
+The project follows a structured approach that encompasses several key phases:
+
+Data cleaning and preprocessing
+Exploratory data analysis (EDA)
+Time series forecasting
+Predictive modeling
+Business decision making
+Real-world application of data science
+
+Data Cleaning: We removed missing or inconsistent data entries, handled outliers, and formatted the data appropriately to ensure high-quality input for analysis.
+Exploratory Data Analysis (EDA): Analyzed sales trends, seasonality, and patterns in historical sales data. Visualizations were created to identify significant features influencing sales.
+Sales Prediction
+
+Exploratory data analysis (EDA): EDA done and found best model for the project.
+
+Feature Engineering: Relevant features were created from sales data, such as day of the week, month, promotional periods, and holiday effects, to enhance model accuracy.
+
+Model Selection: Evaluated different time series forecasting models including ARIMA, SARIMA, Prophet, LSTM, and Regression Models. The most appropriate model was selected based on performance metrics.
+
+Sales Forecasting: The trained model was utilized to predict pizza sales for the upcoming week.
+
+Ingredient Calculation: Calculated the required quantities of each ingredient based on predicted sales and the ingredient dataset.
+
+Model Selection: Evaluated different time series forecasting models including ARIMA, SARIMA, Prophet, LSTM, and Regression Models. The most appropriate model was selected based on performance metrics.
+
+Model Training: Trained the selected predictive model using historical sales data.
+
+Model Evaluation: Used Mean Absolute Percentage Error (MAPE) to assess model performance and accuracy.
+Purchase Order Generation
+
+Purchase Order Creation: Generated a detailed purchase order that lists the quantities of each ingredient needed for the forecasted sales period.
+Findings.
+
+The predictive model effectively identified trends and patterns in historical sales data, leading to accurate sales forecasts.
+Seasonality and specific events (like holidays and promotions) significantly impacted sales, necessitating their inclusion in the model.
+The model's performance was validated using MAPE, confirming its reliability for future predictions.
+
+Results:
+Achieved accurate sales predictions for the next week, allowing for proactive inventory management.
+Generated a comprehensive purchase order detailing the required ingredients for the forecasted sales period, enabling Dominos to optimize its supply chain processes.
+Uses
+This project serves several critical business functions within the food service industry:
+
+Inventory Management: Ensures optimal stock levels to meet future demand without overstocking, thereby minimizing waste.
+Cost Reduction: Helps reduce costs associated with expired or excess inventory, supporting efficient financial planning.
+Sales Forecasting: Provides insights into sales trends that inform strategic business decisions and promotions.
+Supply Chain Optimization: Streamlines the ordering process, aligning inventory levels with predicted sales to avoid disruptions.
